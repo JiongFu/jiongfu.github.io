@@ -1,0 +1,57 @@
+# Site settings
+title: Path to data science
+email: jinyong.fu@outlook.com
+description: >
+    The website hosts all my notes and projects introduction related to data science
+#  Jekyll Template for Project Websites
+#  providing documentation and blog post pages.
+
+baseurl: "/jionfu.github.io/" # the subpath of your site, e.g. /blog/
+url: https://jiongfu.github.io/home # the base hostname & protocol for your site
+git_address: https://github.com/JiongFu/jiongfu.github.io
+#git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+bootwatch: paper
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: Europe/Roma
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
