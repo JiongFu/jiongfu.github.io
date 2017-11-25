@@ -6,8 +6,8 @@ description: >
 #  Jekyll Template for Project Websites
 #  providing documentation and blog post pages.
 
-baseurl: "/jionfu.github.io/" # the subpath of your site, e.g. /blog/
-url: https://jiongfu.github.io/home # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: https://jiongfu.github.io # the base hostname & protocol for your site
 git_address: https://github.com/JiongFu/jiongfu.github.io
 #git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
