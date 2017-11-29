@@ -1,2 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/jionfu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/jionfu.github.io/" rel="alternate" type="text/html" /><updated>2017-11-25T20:32:41+00:00</updated><id>http://localhost:4000/jionfu.github.io/</id><title type="html">A path to be one of the top data scientists</title><subtitle>The website hosts all my notes and projects introduction related to data science
-</subtitle><entry><title type="html">Welcome to my data science blog</title><link href="http://localhost:4000/jionfu.github.io/blog/2017/11/25/Welcome-to-my-data-science-blog/" rel="alternate" type="text/html" title="Welcome to my data science blog" /><published>2017-11-25T00:00:00+00:00</published><updated>2017-11-25T00:00:00+00:00</updated><id>http://localhost:4000/jionfu.github.io/blog/2017/11/25/Welcome-to-my-data-science-blog</id><content type="html" xml:base="http://localhost:4000/jionfu.github.io/blog/2017/11/25/Welcome-to-my-data-science-blog/">&lt;p&gt;test …&lt;/p&gt;</content><author><name>JiongFu</name></author><summary type="html">test …</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/jiongfu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/jiongfu.github.io/" rel="alternate" type="text/html" /><updated>2017-11-28T11:32:20+00:00</updated><id>http://localhost:4000/jiongfu.github.io/</id><title type="html">Path to data science</title><subtitle>The website hosts all my notes and projects introduction related to data science
+</subtitle><entry><title type="html">Deep Learning (1): Quick Checking</title><link href="http://localhost:4000/jiongfu.github.io/blog/2017/11/28/Deep-Learning-(1)-quick-checking/" rel="alternate" type="text/html" title="Deep Learning (1): Quick Checking" /><published>2017-11-28T00:00:00+00:00</published><updated>2017-11-28T00:00:00+00:00</updated><id>http://localhost:4000/jiongfu.github.io/blog/2017/11/28/Deep-Learning-(1):-quick-checking</id><content type="html" xml:base="http://localhost:4000/jiongfu.github.io/blog/2017/11/28/Deep-Learning-(1)-quick-checking/">&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;ML algorithms are shalldow architectures with 1 to 3 layers. Deep learning applies multiple layers which impliles a deep architecture. The blocking issue of Deep learning is released by 2006. Two concepts were proposed:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deep Belief Network&lt;/li&gt;
+  &lt;li&gt;Autoencoder&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;benefits&quot;&gt;Benefits&lt;/h2&gt;
+
+&lt;p&gt;(formally) Functions that can be compactly represented by a depth k architecture might require an exponential number of computational elements to be represented by a depth k − 1 architecture.
+In other words, some function could be represented by Deep Architecture in an more efficient way.&lt;/p&gt;
+
+&lt;h2 id=&quot;issues&quot;&gt;Issues&lt;/h2&gt;
+
+&lt;p&gt;Too many parameters and connections to be tuned/trained&lt;/p&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.cmu.edu/~epxing/Class/10715/lectures/DeepArchitectures.pdf&quot;&gt;Deep Architecture&lt;/a&gt;: slides from CMU course 10715&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.cmu.edu/~epxing/Class/10715/reading/ftml.pdf&quot;&gt;Learning Deep Architectures for AI&lt;/a&gt;: Yoshua Bengio&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.cmu.edu/~epxing/Class/10715/lectures/MultiLayerPerceptron.pdf&quot;&gt;Perceptron, Multilayer Perceptron&lt;/a&gt;: slides from CMU course 10715&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Background</summary></entry><entry><title type="html">Reactive Programming</title><link href="http://localhost:4000/jiongfu.github.io/blog/2017/11/27/Reactive-Programming-Python/" rel="alternate" type="text/html" title="Reactive Programming" /><published>2017-11-27T00:00:00+00:00</published><updated>2017-11-27T00:00:00+00:00</updated><id>http://localhost:4000/jiongfu.github.io/blog/2017/11/27/Reactive-Programming-Python</id><content type="html" xml:base="http://localhost:4000/jiongfu.github.io/blog/2017/11/27/Reactive-Programming-Python/">&lt;h3 id=&quot;简介&quot;&gt;简介&lt;/h3&gt;
+&lt;p&gt;Asynchronous Programming(AP) 异步编程是用来解决处理延迟，不可预测的资源的编程模式。AP模式常用来开发响应服务和用户界面。Reactive Programming（RP）应运而生，主要用来处理响应式的场景。以方便达到一下四个基本要求：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Responsive: 系统能够及时响应用户的需求&lt;/li&gt;
+  &lt;li&gt;Elastic: 系统能够根据demand伸缩&lt;/li&gt;
+  &lt;li&gt;Resilient: 避免single point of failure, 模块化的思想需要用道&lt;/li&gt;
+  &lt;li&gt;Message Driven: 消息驱动&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reative-programming-主要概念&quot;&gt;Reative Programming 主要概念&lt;/h3&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;h3 id=&quot;参考&quot;&gt;参考&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.packtpub.com/application-development/python-high-performance-second-edition&quot;&gt;Python High Performance Programing 2nd Edition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://reactivex.io/&quot;&gt;ReactivaX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>JiongFu</name></author><category term="concurrency" /><category term="asynchronous programming" /><summary type="html">简介 Asynchronous Programming(AP) 异步编程是用来解决处理延迟，不可预测的资源的编程模式。AP模式常用来开发响应服务和用户界面。Reactive Programming（RP）应运而生，主要用来处理响应式的场景。以方便达到一下四个基本要求： Responsive: 系统能够及时响应用户的需求 Elastic: 系统能够根据demand伸缩 Resilient: 避免single point of failure, 模块化的思想需要用道 Message Driven: 消息驱动</summary></entry><entry><title type="html">Welcome to my data science blog</title><link href="http://localhost:4000/jiongfu.github.io/blog/2017/11/25/Welcome-to-my-data-science-blog/" rel="alternate" type="text/html" title="Welcome to my data science blog" /><published>2017-11-25T00:00:00+00:00</published><updated>2017-11-25T00:00:00+00:00</updated><id>http://localhost:4000/jiongfu.github.io/blog/2017/11/25/Welcome-to-my-data-science-blog</id><content type="html" xml:base="http://localhost:4000/jiongfu.github.io/blog/2017/11/25/Welcome-to-my-data-science-blog/">&lt;p&gt;test …&lt;/p&gt;</content><author><name>JiongFu</name></author><summary type="html">test …</summary></entry></feed>

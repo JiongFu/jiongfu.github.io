@@ -5,7 +5,7 @@
     
     {
       "title": "Welcome",
-      "url": "/jionfu.github.io/docs/home/"
+      "url": "/jiongfu.github.io/docs/home/"
 
     },
   
@@ -13,7 +13,7 @@
     
     {
       "title": "Themes",
-      "url": "/jionfu.github.io/docs/themes/"
+      "url": "/jiongfu.github.io/docs/themes/"
 
     },
   
@@ -21,7 +21,7 @@
     
     {
       "title": "Customization",
-      "url": "/jionfu.github.io/docs/customization/"
+      "url": "/jiongfu.github.io/docs/customization/"
 
     },
   
@@ -31,7 +31,7 @@
     
     {
       "title": "Markdown Cheatsheet",
-      "url": "/jionfu.github.io/docs/cheatsheet/"
+      "url": "/jiongfu.github.io/docs/cheatsheet/"
 
     },
   
@@ -39,7 +39,7 @@
     
     {
       "title": "Font Awesome Icon List",
-      "url": "/jionfu.github.io/docs/font-awesome/"
+      "url": "/jiongfu.github.io/docs/font-awesome/"
 
     },
   
@@ -47,7 +47,7 @@
     
     {
       "title": "Bootstrap Features",
-      "url": "/jionfu.github.io/docs/bootstrap/"
+      "url": "/jiongfu.github.io/docs/bootstrap/"
 
     },
   
@@ -55,8 +55,18 @@
 
   
   {
+  "title": "Deep Learning (1): Quick Checking",
+  "url": "/jiongfu.github.io/blog/2017/11/28/Deep-Learning-(1)-quick-checking/"
+  },
+  
+  {
+  "title": "Reactive Programming",
+  "url": "/jiongfu.github.io/blog/2017/11/27/Reactive-Programming-Python/"
+  },
+  
+  {
   "title": "Welcome to my data science blog",
-  "url": "/jionfu.github.io/blog/2017/11/25/Welcome-to-my-data-science-blog/"
+  "url": "/jiongfu.github.io/blog/2017/11/25/Welcome-to-my-data-science-blog/"
   }
   
 ]
